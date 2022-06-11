@@ -1,11 +1,4 @@
-//-----------------------------------------------------
-// Title: This class have PlayerDatabaseMethods class's methods.
-// Author:Hüseyin Ufuk Yýlmaz
-// ID: 21826286904
-// Section: 02
-// Assignment: 3
-// Description: This class tests PlayerDatabaseMethods methods and it is main class.
-//-----------------------------------------------------
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -21,11 +14,6 @@ public class PlayerDatabase {
 		PlayerDatabaseMethods pd = new PlayerDatabaseMethods();
 		System.out.println("Enter Operation Number");
 		do {
-			 //--------------------------------------------------------
-			 // Summary:specifies the method to call.
-			 // Precondition:Number is an integer value.
-			 // Postcondition:The methods in the PlayerDataBaseMethods class are accessed.
-			 //--------------------------------------------------------
 			number = keyboard.nextInt();
 
 			if (number == 1) {      //it takes input from user and calls addPlayer method
