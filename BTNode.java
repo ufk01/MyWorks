@@ -1,11 +1,4 @@
-//-----------------------------------------------------
-// Title: Node class for binary search tree.
-// Author:Hüseyin Ufuk Yýlmaz
-// ID: 21826286904
-// Section: 02
-// Assignment: 3
-// Description: This class have attributes which are necessary to implement to whole code. 
-//-----------------------------------------------------
+
 public class BTNode {
 int transferFee;
 String name,surname;
